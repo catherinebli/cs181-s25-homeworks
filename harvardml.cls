@@ -48,7 +48,7 @@
 \def\titlebar{\hrule height2pt\vskip .25in\vskip-\parskip}
 
 \newcommand{\headerblock}{%
-  \noindent\begin{minipage}{0.33\textwidth}
+  \noindent\begin{minipage}{0.30\textwidth}
   \begin{flushleft}
   \ifhmlset@submit
     \mbox{\hmlset@name}\\
@@ -57,18 +57,11 @@
   \fi
   \end{flushleft}
   \end{minipage}
-  \noindent\begin{minipage}{0.33\textwidth}
+  \noindent\begin{minipage}{0.40\textwidth}
   \begin{center}
     \mbox{\Large\hmlset@assignment}\protect\\
     Due: \hmlset@duedate
   \end{center}
-  \end{minipage}
-  \noindent\begin{minipage}{0.33\textwidth}
-  \begin{flushright}
-  %\ifhmlset@submit
-  %  Collaborators: \hmlset@collaborators
-  %  \fi
-  \end{flushright}
   \end{minipage}
   \vspace{0.1cm}
   \titlebar

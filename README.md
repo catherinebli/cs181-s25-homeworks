@@ -1,4 +1,4 @@
-# CS 181 Spring 2025 Homeworks
+# CS 1810 Spring 2025 Homeworks
 
 Homeworks will be released from this GitHub repository. The recommended way to download files is to clone this repository using
 
